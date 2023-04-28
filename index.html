@@ -1,0 +1,189 @@
+
+
+<html>
+   <head>
+      <title>Steckbrief</title>
+      <style>
+        html{
+            background-color: black;
+        }
+        h3 {
+            color: rgb(197, 196, 196);
+    
+        }
+        h1 {
+        background-color: rgb(99, 99, 99);
+            color: white;
+        }
+        button {
+            display: inline;
+            margin-left: 10px;
+            height: 20px;
+        }
+        .inline {
+            width: 300px;
+            display: flex;
+        }
+        
+        
+      </style>
+   </head>
+   <body>
+    <h1> Dominik  </h1>
+    <h3> Name: Dominik  </h3>
+    <div class="inline">
+        <h3>
+           
+         <samp id="Height">1,73m </samp>    
+            </h3>
+            <p align="center"><button onclick="idFunction('Height')">  Größe</button></p>  
+    </div> 
+    <div class="inline">
+        <h3>
+            
+            <span id="myDIV">14</span> 
+        </h3> 
+      <p align="center"><button onclick="idFunction('myDIV')">Alter</button></p> 
+    </div>
+    <div class="inline">
+    <h3>
+       
+      <span id="home">nsv</span> 
+    </h3>
+      <p align="center"><button onclick="idFunction('home')">home</button></p>   
+       
+    </div>
+    <div class="inline">
+    <h3>
+         
+       <span id="Job">Infomatiker</span> 
+    </h3>
+       <p align="center"><button onclick="idFunction('Job')">traum job</button></p>   
+</div> 
+<div class="inline">
+<h3>
+    <span id="school">Herzog-Heirich Mittelschule</span>
+               
+</h3>
+<p align="center"><button onclick="idFunction('school')">schule</button></p>
+</div>
+<div class="inline">
+    <h3>
+        <span id="hobby">pc bedinug, Radfahren</span>
+    </h3>
+    <p align="center"><button onclick="idFunction()">Hobbys</button></p>
+
+</div>
+<div class="inline">
+<h3>
+<span id="ag"> keine</span>
+</h3>
+<p align="center"><button onclick="idFunction()">AGs</button></p>   
+</div>
+<div class="inline">
+<h3>
+<span id="klasse">8aM</span>
+</h3>
+<p align="center"><button onclick="idFunction()">Klasse</button></p>   
+</div>
+<div class="inline">
+<h3>
+<span id="mac"> mac</span>
+</h3>
+<p align="center"><button onclick="idFunction()">mac oder windows</button></p>   
+</div>
+<div class="inline">
+<h3>
+    <span id="gw">2</span>
+
+</h3>
+<p align="center"><button onclick="idFunction()">Geschwister</button></p>   
+</div>
+<h3>
+    <img src="https://www.stepstone.de/upload_de/logo/F/logowige-SOLUTIONS-GmbH-Co-KG-181166DE-2301231347.gif" alt="">
+</h3>
+   </body>
+   <script>
+        function idFunction(idSelector) { 
+            var x = document.getElementById(idSelector);
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+        }     
+        /* function höhenFunction() { 
+            var x = document.getElementById("Height");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+        }  
+        function homeFunction() { 
+            var x = document.getElementById("home");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+        }   
+        function jobFunction () { 
+            var x = document.getElementById("Job");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+         }    
+            function schoolFunction () {
+            var x = document.getElementById("school");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+         } 
+         function hobbyFunction () {
+            var x = document.getElementById("hobby");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+         }
+         function agFunction () {
+            var x = document.getElementById("ag");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+         }   
+         function klasseFunction () {
+            var x = document.getElementById("klasse");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+         }
+         function macFunction () {
+            var x = document.getElementById("mac");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+         } 
+         function gwFunction () {
+            var x = document.getElementById("gw");
+            if (x.style.display === "none") {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+         } */
+   </script>
+   
+</html>
