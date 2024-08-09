@@ -1,0 +1,43 @@
+#New{
+background: linear-gradient( to right, #83828281, #000000);
+color: rgb(255, 255, 255);
+border-radius: 10px;
+padding: 15px 20px;
+border: 2px solid black;
+
+}
+
+#New:hover{
+
+    background-color: rgb(255, 255, 255);
+
+}
+body{
+
+    background: linear-gradient(to top, #afafaf, #222222);
+
+}
+
+h1{
+    border: 2px solid #6d6d6d;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(126, 126, 128, 0.322);
+    color:white;
+
+
+
+legend{
+background: black;
+
+}
+}
+
+ul  {
+
+color: white;
+
+
+
+}
